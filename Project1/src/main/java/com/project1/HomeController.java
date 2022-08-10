@@ -36,4 +36,9 @@ public class HomeController {
 		return "home";
 	}
 	
+	@RequestMapping(value = "signUp.do")
+	public String singUp(Model model) {
+		return "signUp";
+	}
+	
 }
